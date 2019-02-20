@@ -1,7 +1,3 @@
 ```console
-$ mkdir build
-$ cd build/
-$ cmake ..
-$ make
-$ ./tictactoe
+$ bash script.sh
 ```

@@ -1,19 +1,12 @@
 #!/bin/bash
 
-
+# Install dependencies
 sudo dnf install make
 sudo dnf install cmake
 sudo dnf install SDL2*
 
-
 sudo dnf update
 sudo dnf upgrade
 
-
-rm -r build
-
-mkdir build
-cd ./build
-cmake ../
-make
-./tictactoe
+# Compile and run Tic Tac Toe
+bash run.sh

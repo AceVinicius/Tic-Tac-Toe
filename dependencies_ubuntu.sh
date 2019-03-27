@@ -1,19 +1,13 @@
 #!/bin/bash
 
-
+# Install dependencies
 sudo apt install make
 sudo apt install cmake
 sudo apt install SDL2*
-
 
 sudo apt update
 sudo apt upgrade
 
 
-rm -r build
-
-mkdir build
-cd ./build
-cmake ../
-make
-./15puzzle
+#compile and run Tic Tac Toe
+bash run.sh

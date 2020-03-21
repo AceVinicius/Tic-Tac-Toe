@@ -1,12 +1,14 @@
 #!/bin/bash
 
+cd lib
 # Remove, if already created build folder
-rm -r build
+rm -r ./cmake/build
 
 
 # Compile Tic Tac Toe
-mkdir build
-cd ./build
+mkdir ./cmake/build
+cd ./cmake/build
 cmake ../
 make
-./tictactoe
+mv Tic-Tac-Toe ../../../bin
+../../../bin/Tic-Tac-Toe

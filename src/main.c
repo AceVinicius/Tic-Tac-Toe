@@ -3,9 +3,9 @@
 
 #include <SDL2/SDL.h>
 
-#include "./game.h"
-#include "./logic.h"
-#include "./rendering.h"
+#include "../lib/headers/game.h"
+#include "../lib/headers/logic.h"
+#include "../lib/headers/rendering.h"
 
 int main(int argc, const char *argv[])
 {

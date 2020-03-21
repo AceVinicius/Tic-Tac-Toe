@@ -1,5 +1,5 @@
-#include "./game.h"
-#include "./logic.h"
+#include "../lib/headers/game.h"
+#include "../lib/headers/logic.h"
 
 void switch_player(game_t *game)
 {

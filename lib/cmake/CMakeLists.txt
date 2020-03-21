@@ -12,16 +12,16 @@ include_directories(${SDL2_GFX_INCLUDE_DIRS})
 SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O0 -Wall -Werror -fdump-rtl-expand")
 
 set(SRCS
-  main.c
-  logic.c
-  rendering.c
+  ../../src/main.c
+  ../../src/logic.c
+  ../../src/rendering.c
 )
 
 set(HEADERS
-  logic.h
-  rendering.h
-  game.h
+  ../headers/logic.h
+  ../headers/rendering.h
+  ../headers/game.h
 )
 
-add_executable(tictactoe ${SRCS} ${HEADERS})
-target_link_libraries(tictactoe ${SDL2_LIBRARIES} ${SDL2_GFX_LIBRARIES})
+add_executable(Tic-Tac-Toe ${SRCS} ${HEADERS})
+target_link_libraries(Tic-Tac-Toe ${SDL2_LIBRARIES} ${SDL2_GFX_LIBRARIES})

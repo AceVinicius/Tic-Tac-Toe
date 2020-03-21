@@ -2,8 +2,8 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL2_gfxPrimitives.h>
 
-#include "./game.h"
-#include "./rendering.h"
+#include "../lib/headers/game.h"
+#include "../lib/headers/rendering.h"
 
 const SDL_Color GRID_COLOR = { .r = 255, .g = 255, .b = 255 };
 const SDL_Color PLAYER_X_COLOR = { .r = 255, .g = 50, .b = 50 };

@@ -2,9 +2,9 @@
 
 First run:
 ```console
-$ sudo bash dependencies_[ distribution ].sh
+$ sudo bash dependencies.sh
 ```
 Future compiles:
 ```console
-$ sudo bash run.sh
+$ bash run.sh
 ```
